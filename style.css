@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:#60f8f0;
+	display:flex;
+	justify-content:flex-start;
+	align-items: center;
+	padding-left:50px;
+	height:100vh;
+}
+
+body .parentImage{
+	margin:20px;
+	display:flex;
+	align-items: center;
+	height:63px;
+	border-radius:10px;
+	width:61px;
+	position:relative;
+	overflow:hidden;
+	transform:rotate(-10deg);
+	transition:all 0.3s ease;
+	cursor:pointer;
+}
+
+body .parentImage:hover {
+	width:240px;
+	
+
+
+}
+body .parentImage img{
+	height:60px;
+	width:60px;
+	margin-right:30px;
+	border-radius:10px;
+}
+body .facebook{
+	background:#fff;
+}
+body .youtube{
+	background:#fff;
+}
+body .instagram{
+	background:#fff;
+}
+body .twitter{
+	background:#fff;
+}
+body .linkedin{
+	background:#fff;
+}
+
+
+
